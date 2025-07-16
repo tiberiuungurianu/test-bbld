@@ -10,7 +10,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <main>
+      <main className="pt-20"> {/* Add padding to account for fixed header */}
         <Hero />
         <About />
         <HowItWorks />
