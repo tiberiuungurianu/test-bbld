@@ -18,6 +18,22 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'serif': ['Frank Ruhl Libre', 'serif'],
+				'sans': ['Inter', 'sans-serif'],
+			},
+			fontSize: {
+				'h1': ['48px', { lineHeight: '1.2', letterSpacing: '-0.5px', fontWeight: '700' }],
+				'h2': ['36px', { lineHeight: '1.3', letterSpacing: '-0.25px', fontWeight: '600' }],
+				'h3': ['28px', { lineHeight: '1.35', letterSpacing: '0', fontWeight: '600' }],
+				'h4': ['22px', { lineHeight: '1.4', letterSpacing: '0', fontWeight: '500' }],
+				'body': ['16px', { lineHeight: '1.6', letterSpacing: '0', fontWeight: '400' }],
+				'body-lg': ['18px', { lineHeight: '1.75', letterSpacing: '0', fontWeight: '400' }],
+				'small': ['14px', { lineHeight: '1.4', letterSpacing: '0', fontWeight: '400' }],
+				'button': ['14px', { lineHeight: '1.2', letterSpacing: '0.5px', fontWeight: '500' }],
+				'button-lg': ['16px', { lineHeight: '1.4', letterSpacing: '0.5px', fontWeight: '600' }],
+				'caption': ['13px', { lineHeight: '1.3', letterSpacing: '0', fontWeight: '400' }],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',

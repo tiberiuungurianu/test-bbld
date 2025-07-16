@@ -10,19 +10,19 @@ const Hero = () => {
   return (
     <section className="bg-background py-20 px-6">
       <div className="container mx-auto text-center">
-        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-4 text-foreground leading-tight">
+        <h1 className="text-h1 font-serif mb-4 text-foreground leading-tight max-w-5xl mx-auto">
           Get into your dream university in the UK.
         </h1>
-        <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 text-muted-foreground leading-tight">
+        <h2 className="text-h1 font-serif mb-8 text-muted-foreground leading-tight max-w-5xl mx-auto">
           With the help of those who have done it.
         </h2>
         
-        <p className="text-lg md:text-xl mb-10 text-foreground max-w-4xl mx-auto leading-relaxed">
+        <p className="text-body-lg font-sans mb-10 text-foreground max-w-4xl mx-auto leading-relaxed">
           We connect Indian students with the right expert admissions coaches for tailored high-quality 
           application support. Benefit from deep insider knowledge by those who have succeeded before you.
         </p>
         
-        <button className="bg-foreground text-background px-8 py-3 rounded-lg text-lg font-medium hover:opacity-90 transition-opacity mb-16">
+        <button className="bg-black text-white px-8 py-4 rounded-lg text-button-lg font-sans hover:opacity-90 transition-opacity mb-16">
           Book Free Consultation
         </button>
 

@@ -1,6 +1,10 @@
 import Header from "@/components/Header"
 import Hero from "@/components/Hero"
 import About from "@/components/About"
+import HowItWorks from "@/components/HowItWorks"
+import UniversityLogos from "@/components/UniversityLogos"
+import CTASection from "@/components/CTASection"
+import Footer from "@/components/Footer"
 
 const Index = () => {
   return (
@@ -9,7 +13,11 @@ const Index = () => {
       <main>
         <Hero />
         <About />
+        <HowItWorks />
+        <UniversityLogos />
+        <CTASection />
       </main>
+      <Footer />
     </div>
   )
 };
