@@ -23,11 +23,7 @@ const HowItWorks = () => {
   ];
 
   return (
-    <section className="relative py-20 bg-background overflow-hidden">
-      {/* Floating background elements */}
-      <div className="absolute top-10 right-10 w-32 h-32 bg-primary/10 rounded-full animate-float"></div>
-      <div className="absolute bottom-20 left-10 w-24 h-24 bg-accent/10 rounded-full animate-bounce-subtle"></div>
-      
+    <section className="relative py-20 bg-background">
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="text-h2 font-serif text-foreground mb-4">
@@ -38,7 +34,7 @@ const HowItWorks = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto mb-12 relative">
           {steps.map((step, index) => (
             <div key={index} className="text-center animate-fade-in-up group hover:scale-105 transition-transform duration-300 relative" style={{ animationDelay: `${index * 0.1}s` }}>
-              <div className="w-16 h-16 bg-gradient-primary text-primary-foreground rounded-full flex items-center justify-center text-h4 font-serif font-bold mb-6 mx-auto shadow-lg group-hover:shadow-xl transition-shadow duration-300 group-hover:animate-pulse-glow">
+              <div className="w-16 h-16 bg-primary text-primary-foreground rounded-lg flex items-center justify-center text-h4 font-serif font-bold mb-6 mx-auto shadow-md group-hover:shadow-lg transition-shadow duration-300">
                 {step.number}
               </div>
               <h3 className="text-h4 font-serif text-foreground mb-4">
@@ -50,14 +46,14 @@ const HowItWorks = () => {
               
               {/* Connection line to next step (except last) */}
               {index < steps.length - 1 && (
-                <div className="hidden lg:block absolute top-8 left-full w-full h-0.5 bg-gradient-to-r from-primary/30 to-transparent transform translate-x-4 z-0"></div>
+                <div className="hidden lg:block absolute top-8 left-full w-full h-0.5 bg-gradient-to-r from-primary/20 to-transparent transform translate-x-4 z-0"></div>
               )}
             </div>
           ))}
         </div>
 
         <div className="text-center animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
-          <button className="bg-gradient-accent text-accent-foreground px-8 py-4 rounded-lg text-button-lg font-sans hover:scale-105 hover:shadow-xl transition-all duration-300 shadow-lg">
+          <button className="bg-accent text-accent-foreground px-8 py-4 rounded-lg text-button-lg font-sans hover:bg-accent-hover hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg">
             Start Your Admissions Journey Now
           </button>
         </div>

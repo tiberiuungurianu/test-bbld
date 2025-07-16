@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Dynamic modern color palette inspired by Handshake */
+    /* Sophisticated modern color palette */
     --background: 0 0% 100%;
     --foreground: 215 25% 27%;
 
@@ -18,45 +18,43 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 215 25% 27%;
 
-    /* Vibrant purple primary */
-    --primary: 280 70% 55%;
+    /* Professional deep blue primary */
+    --primary: 220 70% 35%;
     --primary-foreground: 0 0% 98%;
-    --primary-light: 280 70% 85%;
-    --primary-dark: 280 70% 35%;
+    --primary-light: 220 70% 85%;
+    --primary-dark: 220 70% 25%;
 
-    /* Rich purple secondary */
-    --secondary: 270 50% 45%;
+    /* Sophisticated navy secondary */
+    --secondary: 215 30% 25%;
     --secondary-foreground: 0 0% 98%;
-    --secondary-light: 270 50% 85%;
+    --secondary-light: 215 30% 85%;
 
-    --muted: 240 10% 95%;
-    --muted-foreground: 240 10% 50%;
+    --muted: 215 15% 96%;
+    --muted-foreground: 215 15% 45%;
 
-    /* Energetic green accent */
-    --accent: 140 85% 45%;
+    /* Professional accent */
+    --accent: 200 80% 40%;
     --accent-foreground: 0 0% 98%;
-    --accent-light: 140 85% 85%;
-    --accent-hover: 140 85% 38%;
+    --accent-light: 200 80% 85%;
+    --accent-hover: 200 80% 35%;
 
     /* Success green */
-    --success: 140 84% 30%;
+    --success: 150 70% 35%;
     --success-foreground: 0 0% 98%;
-    --success-light: 140 84% 85%;
+    --success-light: 150 70% 85%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 240 10% 90%;
-    --input: 240 10% 90%;
-    --ring: 280 70% 55%;
+    --border: 215 15% 90%;
+    --input: 215 15% 90%;
+    --ring: 220 70% 35%;
 
-    /* Dynamic vibrant gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(280 70% 55%), hsl(270 60% 45%));
-    --gradient-hero: linear-gradient(135deg, hsl(280 70% 55%), hsl(140 85% 45%));
-    --gradient-accent: linear-gradient(135deg, hsl(140 85% 45%), hsl(160 80% 50%));
-    --gradient-purple: linear-gradient(180deg, hsl(280 70% 25%), hsl(270 60% 15%));
-    --gradient-curved: radial-gradient(ellipse at top, hsl(280 70% 55% / 0.1), transparent 70%);
-    --gradient-section: linear-gradient(160deg, hsl(280 70% 97%), hsl(140 85% 97%));
+    /* Sophisticated gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(220 70% 35%), hsl(220 70% 45%));
+    --gradient-hero: linear-gradient(135deg, hsl(220 70% 35%), hsl(215 30% 25%));
+    --gradient-accent: linear-gradient(135deg, hsl(200 80% 40%), hsl(200 80% 50%));
+    --gradient-section: linear-gradient(160deg, hsl(220 70% 98%), hsl(215 15% 98%));
     
     /* Professional shadows */
     --shadow-soft: 0 4px 12px hsl(215 84% 40% / 0.08);
